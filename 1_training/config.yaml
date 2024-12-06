@@ -1,0 +1,6 @@
+path: C:\Users\viest\OneDrive\z_old\Desktop\sandbox\25_model_building_boxes
+train: dataset\train\images
+val: dataset\train\images
+
+names:
+  0: box
