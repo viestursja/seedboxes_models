@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1081721</id>
+      <name>seedbox_test</name>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-12-09 09:25:45.472842+00:00</created>
+      <updated>2024-12-09 09:28:47.714378+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1860619</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/1858158</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>viesturs</username>
+        <email>viesturs.ja@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>box</name>
+          <color>#208080</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2024-12-09 09:29:22.037897+00:00</dumped>
+  </meta>
+  <image id="0" name="captured_image_0.jpg" width="864" height="480">
+    <box label="box" source="manual" occluded="0" xtl="84.48" ytl="7.36" xbr="216.72" ybr="175.59" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="237.48" ytl="74.52" xbr="396.72" ybr="234.44" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="396.02" ytl="37.82" xbr="551.79" ybr="142.36" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="561.48" ytl="29.52" xbr="717.95" ybr="167.98" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="79.64" ytl="239.28" xbr="229.18" ybr="410.98" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="238.18" ytl="243.44" xbr="401.56" ybr="387.44" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="398.10" ytl="166.59" xbr="552.48" ybr="279.44" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="578.79" ytl="162.44" xbr="734.56" ybr="292.59" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="403.64" ytl="300.21" xbr="562.87" ybr="414.44" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="576.72" ytl="302.28" xbr="734.56" ybr="436.59" z_order="0">
+    </box>
+    <points label="box" source="manual" occluded="0" points="171.72,17.75;128.79,166.59" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="256.18,104.98;370.41,209.52" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="400.18,88.36;549.02,90.44" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="580.87,135.44;699.95,57.90" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="397.41,222.67;549.02,224.75" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="589.87,260.05;721.41,198.44" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="586.41,341.75;726.25,397.82" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="406.41,360.44;560.10,354.90" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="250.64,278.75;389.10,350.75" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="117.02,252.44;193.18,392.28" z_order="0">
+    </points>
+  </image>
+</annotations>
