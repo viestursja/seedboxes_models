@@ -14,6 +14,26 @@
 
 ### Pose Estimation
 
-> in CVAT job use 'Draw new points'
+#### Sources:
+
+[Roboflow Blog: Piemērs, iznatojot Roboflow](https://blog.roboflow.com/train-a-custom-yolov8-pose-estimation-model/)
+
+[Bulgārs YT](https://www.youtube.com/watch?v=gA5N54IO1ko&ab_channel=Computervisionengineer)
+
+[COCO Dataset format-data](https://www.youtube.com/watch?v=gA5N54IO1ko&ab_channel=Computervisionengineer)
+
+---
+
+#### Process
+
+> in CVAT job use 'Draw new points' + 'Draw new rectangle' "Label" abiem ir vienādi? Vai box labāk ir sagriezt?
 
 > Save the job and export as 'CVAT for images 1:1' - it will be in .xml format
+
+> Konverē uz xml uz yolo formātu ar skriptu `/4_pose_estiimation/cvat_to_ultralitics_yolov8.py` : iegūst katram img atbolstošu .txt failu
+
+> .yaml config fails par flip_idx parametru ChatGPT [šeit](https://chatgpt.com/c/675466eb-a8e4-800d-8b87-d64a260af236)
+
+> `model.train()` [parametru settings](https://docs.ultralytics.com/modes/train/#augmentation-settings-and-hyperparameters)
+
+> CLI komanda: `yolo task=pose mode=train data=".\data.yaml" model=yolov8n.pt imgsz=640`

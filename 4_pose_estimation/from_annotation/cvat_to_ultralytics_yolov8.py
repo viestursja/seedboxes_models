@@ -24,6 +24,8 @@ for image in images:
     h = ybr - ytl
     label_file = open(os.path.join(out_dir, name + '.txt'), 'w')
 
+    print(f'Label file {label_file}')
+
     for e in elem:
 
         label_file.write('0 {} {} {} {} '.format(
@@ -35,6 +37,8 @@ for image in images:
         points = e.attributes['points']
         points = points.value.split(';')
         points_ = []
+
+        print(f'Points {points}')
         for p in points:
             p = p.split(',')
             p1, p2 = p
@@ -43,5 +47,7 @@ for image in images:
             label_file.write('{} {}'.format(p[0] / width, p[1] / height))
             if p_ < len(points_) - 1:
                 label_file.write(' ')
+                print('Write in Label file 1')
             else:
                 label_file.write('\n')
+                print('Write in Label file 2')

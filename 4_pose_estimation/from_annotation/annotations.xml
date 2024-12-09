@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1081769</id>
+      <name>seedbox_pose_estimation_v2</name>
+      <size>5</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-12-09 09:49:02.697518+00:00</created>
+      <updated>2024-12-09 10:14:24.597757+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>4</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1860659</id>
+          <start>0</start>
+          <stop>4</stop>
+          <url>https://app.cvat.ai/api/jobs/1858198</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>viesturs</username>
+        <email>viesturs.ja@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>box</name>
+          <color>#208080</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2024-12-09 10:16:44.393658+00:00</dumped>
+  </meta>
+  <image id="0" name="captured_image_0.jpg" width="864" height="480">
+    <box label="box" source="manual" occluded="0" xtl="87.25" ytl="8.05" xbr="218.10" ybr="173.52" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="236.80" ytl="76.59" xbr="396.00" ybr="231.70" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="76.18" ytl="236.52" xbr="231.25" ybr="408.90" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="236.10" ytl="242.05" xbr="402.95" ybr="385.36" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="396.72" ytl="35.75" xbr="551.79" ybr="142.36" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="564.95" ytl="25.36" xbr="718.64" ybr="167.30" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="397.34" ytl="167.98" xbr="555.95" ybr="275.30" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="575.33" ytl="161.75" xbr="733.18" ybr="294.70" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="402.95" ytl="298.80" xbr="560.10" ybr="413.10" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="575.33" ytl="303.67" xbr="735.95" ybr="437.98" z_order="0">
+    </box>
+    <points label="box" source="manual" occluded="0" points="132.25,165.90;169.64,17.75" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="117.72,253.82;190.41,392.28" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="251.33,279.44;389.79,348.67" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="258.25,102.90;371.79,209.52" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="398.10,86.98;548.33,89.05" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="397.41,226.82;549.02,224.75" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="408.49,358.36;557.33,351.44" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="588.49,339.67;724.87,395.05" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="586.41,253.13;721.41,197.75" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="578.79,133.36;700.64,60.67" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="captured_image_1.jpg" width="864" height="480">
+    <points label="box" source="manual" occluded="0" points="137.79,14.29;149.56,165.90" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="319.18,138.90;272.79,285.67" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="139.87,248.98;137.79,408.21" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="387.70,308.50;284.60,426.20" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="407.79,121.59;555.25,112.59" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="407.79,222.67;558.02,210.21" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="418.18,324.44;569.10,312.67" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="582.25,347.29;727.64,337.59" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="580.18,200.52;720.72,252.44" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="589.20,135.40;701.33,52.36" z_order="0">
+    </points>
+    <box label="box" source="manual" occluded="0" xtl="83.10" ytl="8.05" xbr="203.56" ybr="171.44" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="83.10" ytl="242.05" xbr="195.25" ybr="414.44" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="229.87" ytl="129.21" xbr="363.48" ybr="294.67" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="253.34" ytl="284.98" xbr="413.33" ybr="449.75" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="400.20" ytl="58.59" xbr="562.87" ybr="170.05" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="567.72" ytl="16.36" xbr="718.64" ybr="163.13" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="403.64" ytl="163.10" xbr="562.18" ybr="272.52" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="416.03" ytl="262.82" xbr="574.64" ybr="376.36" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="579.48" ytl="282.90" xbr="733.18" ybr="399.90" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="571.18" ytl="159.67" xbr="724.18" ybr="287.75" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="captured_image_2.jpg" width="864" height="480">
+    <points label="box" source="manual" occluded="0" points="137.10,93.21;137.10,248.98" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="138.49,253.13;138.48,410.28" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="285.25,120.21;296.33,271.82" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="288.72,279.44;297.72,434.52" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="419.56,326.52;569.10,311.98" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="407.79,224.05;557.33,212.98" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="404.33,120.21;553.18,105.67" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="580.18,139.59;722.10,139.59" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="585.02,243.44;729.02,244.82" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="590.56,347.98;738.02,345.21" z_order="0">
+    </points>
+    <box label="box" source="manual" occluded="0" xtl="76.87" ytl="88.36" xbr="193.87" ybr="251.05" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="80.26" ytl="251.75" xbr="193.87" ybr="414.40" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="232.64" ytl="116.75" xbr="346.18" ybr="276.67" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="236.10" ytl="278.05" xbr="350.33" ybr="440.05" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="399.48" ytl="55.82" xbr="556.64" ybr="167.28" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="403.64" ytl="161.75" xbr="560.10" ybr="273.21" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="414.72" ytl="260.75" xbr="573.30" ybr="377.05" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="576.72" ytl="85.60" xbr="724.87" ybr="190.13" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="580.18" ytl="194.98" xbr="732.48" ybr="296.05" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="583.64" ytl="292.59" xbr="742.18" ybr="399.21" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="captured_image_3.jpg" width="864" height="480">
+    <points label="box" source="manual" occluded="0" points="142.08,167.63;218.93,33.32" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="118.55,222.32;180.16,367.71" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="225.85,218.86;380.93,207.09" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="387.16,161.40;434.24,20.17" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="407.24,223.71;558.16,213.32" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="587.24,132.32;697.32,45.09" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="585.16,245.17;729.85,247.25" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="286.78,277.71;297.85,434.86" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="429.39,297.79;546.39,393.32" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="583.08,352.48;727.10,380.20" z_order="0">
+    </points>
+    <box label="box" source="manual" occluded="0" xtl="107.47" ytl="18.09" xbr="257.01" ybr="184.94" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="344.93" ytl="9.09" xbr="477.16" ybr="169.02" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="565.08" ytl="14.63" xbr="716.01" ybr="162.09" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="220.32" ytl="155.17" xbr="385.78" ybr="272.17" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="402.39" ytl="163.48" xbr="560.24" ybr="274.94" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="580.32" ytl="191.86" xbr="736.08" ybr="300.55" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="74.93" ytl="210.55" xbr="224.47" ybr="381.55" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="236.24" ytl="274.25" xbr="351.85" ybr="441.78" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="407.24" ytl="268.71" xbr="567.85" ybr="426.55" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="579.62" ytl="304.71" xbr="733.32" ybr="425.86" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="captured_image_4.jpg" width="864" height="480">
+    <points label="box" source="manual" occluded="0" points="83.24,90.09;244.55,90.78" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="425.90,164.90;427.32,15.32" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="531.85,162.09;534.62,16.02" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="635.70,18.79;632.24,164.86" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="401.70,221.60;550.50,224.40" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="135.85,216.09;169.78,368.40" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="225.85,396.79;384.39,386.40" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="406.20,385.36;558.51,389.52" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="573.74,387.44;723.97,383.98" z_order="0">
+    </points>
+    <points label="box" source="manual" occluded="0" points="606.97,303.67;721.20,213.67" z_order="0">
+    </points>
+    <box label="box" source="manual" occluded="0" xtl="80.12" ytl="33.67" xbr="247.66" ybr="144.44" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="368.82" ytl="10.82" xbr="479.58" ybr="166.60" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="477.51" ytl="12.90" xbr="583.43" ybr="165.90" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="583.43" ytl="16.36" xbr="686.58" ybr="168.70" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="395.12" ytl="168.00" xbr="553.66" ybr="276.00" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="88.43" ytl="206.10" xbr="216.51" ybr="377.75" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="584.80" ytl="182.54" xbr="743.42" ybr="332.54" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="223.62" ytl="331.38" xbr="389.19" ybr="449.08" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="403.04" ytl="329.70" xbr="561.69" ybr="441.60" z_order="0">
+    </box>
+    <box label="box" source="manual" occluded="0" xtl="568.04" ytl="327.87" xbr="726.69" ybr="438.69" z_order="0">
+    </box>
+  </image>
+</annotations>

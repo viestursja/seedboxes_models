@@ -1,2 +1,5 @@
 venv/
 *.pt
+training/
+*.jpg
+*.jpg.txt
