@@ -1,3 +1,5 @@
+# this run son windows cpu!
+
 import cv2
 from ultralytics import YOLO
 
